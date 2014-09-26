@@ -1,6 +1,6 @@
 # About
 
-This script will install Perforce Server 2014.1 on a 64-bit linux host. It has only been tested on Ubuntu so far.
+This script will install Perforce Server 2014.1 on a 64-bit linux host. It has only been tested on Ubuntu so far. If you are looking for an Ubuntu host, I recommend the $20/month tier at [DigitalOcean](https://www.digitalocean.com/?refcode=070b959bc226).
 
 # Usage
 
