@@ -4,7 +4,7 @@ This script will install Perforce Server 2014.1 on a 64-bit linux host. It has o
 
 # Usage
 
-In shell, run the following commands:
+In shell, run the following commands in your terminal. You don't need to download this repo, that is what the first line in the following code does.
 
 ```shell
 wget https://raw.githubusercontent.com/Allar/linux-perforce-installer/master/install-perforce
