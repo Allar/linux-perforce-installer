@@ -1,0 +1,15 @@
+#!/bin/sh
+
+wget ftp://ftp.perforce.com/perforce/r14.1/bin.linux26x86_64/p4d
+chmod +x p4d
+sudo mv p4d /usr/local/bin
+sudo adduser perforce
+sudo mkdir /perforce_depot
+sudo chown perforce /perforce_depot
+sudo mkdir /var/log/perforce
+sudo chown perforce /var/log/perforce
+sudo apt-get install daemon
+cd /etc/init.d
+wget https://raw.githubusercontent.com/Allar/linux-perforce-installer/master/root
+sudo update-rc.d root defaults
+sudo reboot
