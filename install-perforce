@@ -10,6 +10,6 @@ sudo mkdir /var/log/perforce
 sudo chown perforce /var/log/perforce
 sudo apt-get install daemon
 cd /etc/init.d
-wget https://raw.githubusercontent.com/Allar/linux-perforce-installer/master/root
-sudo update-rc.d root defaults
+wget https://raw.githubusercontent.com/Allar/linux-perforce-installer/master/p4dservice
+sudo update-rc.d p4dservice defaults
 sudo reboot
