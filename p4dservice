@@ -3,7 +3,8 @@
 export P4JOURNAL=/var/log/perforce/journal
 export P4LOG=/var/log/perforce/p4err
 export P4ROOT=/perforce_depot
-export P4PORT=1666
+export P4PORT=ssl:1666
+export P4SSLDIR=/perforce_depot/ssl
 
 PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin"
 

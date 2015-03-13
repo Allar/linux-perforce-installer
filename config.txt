@@ -1,0 +1,25 @@
+# C: Country Name - 2 letter code (default: US)
+C = US
+
+# ST: State or Province Name - full name (default: CA)
+ST = CA
+
+# L: Locality or City Name (default: Alameda)
+L = San Francisco
+
+# O: Organization or Company Name (default: Perforce Autogen Cert)
+O = Perforce Autogen Cert
+
+# OU = Organization Unit - division or unit
+OU =
+
+# CN: Common Name (usually the DNS name of the server)
+# (default: the current server's DNS name)
+CN = *.example.com
+
+# EX: number of days from today for certificate expiration
+# (default: 730, e.g. 2 years)
+EX = 730
+
+# UNITS: unit multiplier for expiration (defaults to "days")
+# Valid values: "secs", "mins", "hours"UNITS =
