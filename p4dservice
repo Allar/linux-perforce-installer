@@ -16,7 +16,7 @@ p4user=perforce
 case "$1" in
   start)
     log_action_begin_msg "Starting Perforce Server"
-    daemon -u $p4user -- $p4start;
+    daemon -u $p4user -- p4d;
     ;;
 
   stop)
