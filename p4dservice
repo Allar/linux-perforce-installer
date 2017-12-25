@@ -14,7 +14,7 @@
 
 export P4JOURNAL=/var/log/perforce/journal
 export P4LOG=/var/log/perforce/p4err
-export P4ROOT=/perforce_depot
+export P4ROOT=/mnt/volume-fra1-01/perforce_depot
 export P4PORT=1666
 
 PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin"
