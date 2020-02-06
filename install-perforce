@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget ftp://ftp.perforce.com/perforce/r15.1/bin.linux26x86_64/p4d
+wget ftp://ftp.perforce.com/perforce/r18.1/bin.linux26x86_64/p4d
 chmod +x p4d
 sudo mv p4d /usr/local/bin
 sudo adduser perforce
